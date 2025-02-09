@@ -1,18 +1,18 @@
 <script setup>
 import TheHeader from './components/TheHeader.vue';
 import TheFooter from './components/TheFooter.vue';
+import MainToDo from './components/MainToDo.vue';
 </script>
 
 <template>
   <div class="wrap">
-    <TheHeader/>
-    <main class="main">メイン</main>
-    <TheFooter/>
+    <TheHeader />
+    <main class="main"><MainToDo /></main>
+    <TheFooter />
   </div>
 </template>
 
 <style>
-
 @import 'assets/css/destyle.css';
 
 .wrap {
@@ -29,5 +29,4 @@ import TheFooter from './components/TheFooter.vue';
   flex: 1;
   width: 100%;
 }
-
 </style>
